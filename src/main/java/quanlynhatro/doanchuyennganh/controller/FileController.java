@@ -20,12 +20,14 @@ public class FileController {
             XWPFParagraph title = document.createParagraph();
             title.setAlignment(ParagraphAlignment.CENTER);
             XWPFRun titleRun = title.createRun();
+
             titleRun.setText("CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM");
 
             XWPFParagraph subtitle = document.createParagraph();
             subtitle.setAlignment(ParagraphAlignment.CENTER);
             XWPFRun subtitleRun = subtitle.createRun();
             subtitleRun.setText("Độc lập – Tự do – Hạnh phúc");
+
 
             // Tạo một đoạn văn bản cho hợp đồng
             XWPFParagraph paragraph = document.createParagraph();
@@ -44,3 +46,6 @@ public class FileController {
         }
     }
 }
+
+}
+
