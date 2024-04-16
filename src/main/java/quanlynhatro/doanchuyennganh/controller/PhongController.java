@@ -13,25 +13,25 @@ import java.util.List;
 public class PhongController implements IController<Phong> {
     @Autowired
     private PhongService phongService;
-
+    //Show toàn bộ danh sách phòng
     @Override
     @GetMapping("/")
     public List<Phong> getAll() {
         return phongService.getAll();
     }
-
+    //Thêm Phòng
     @Override
     @PostMapping("/")
     public Phong insert(Phong phong) {
         return phongService.insert(phong);
     }
-
+    //Cập nhật phòng
     @Override
     @PutMapping("/")
     public Phong update(Phong phong) {
         return phongService.insert(phong);
     }
-
+    //Kiểm tra phòng còn trống
     @GetMapping("/SL")
     public int getNumberOfPhongIsConTrong() {
         return phongService.getNumberOfPhongIsConTrong();
