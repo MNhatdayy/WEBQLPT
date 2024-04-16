@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Asus
+Build-Jdk: Oracle OpenJDK version 20.0.1
+Implementation-Title: doanchuyennganh
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: quanlynhatro
+Main-Class: ${start-class}
+
